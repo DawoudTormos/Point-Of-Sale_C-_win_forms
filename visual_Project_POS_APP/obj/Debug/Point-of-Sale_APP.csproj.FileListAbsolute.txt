@@ -1,0 +1,36 @@
+C:\Users\User\Desktop\WindowsFormsApp1\bin\Debug\Point-of-Sale_APP.exe.config
+C:\Users\User\Desktop\WindowsFormsApp1\bin\Debug\Point-of-Sale_APP.exe
+C:\Users\User\Desktop\WindowsFormsApp1\bin\Debug\Point-of-Sale_APP.pdb
+C:\Users\User\Desktop\WindowsFormsApp1\bin\Debug\MaterialSkin2Framework.dll
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\Point-of-Sale_APP.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.POS_APP.resources
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\projec_visual.Properties.Resources.resources
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\Point-of-Sale_APP.csproj.GenerateResource.cache
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\Point-of-Sale_APP.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\Point-of.53B8F58C.Up2Date
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\Point-of-Sale_APP.exe
+C:\Users\User\Desktop\WindowsFormsApp1\obj\Debug\Point-of-Sale_APP.pdb
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\bin\Debug\Point-of-Sale_APP.exe.config
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\bin\Debug\Point-of-Sale_APP.exe
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\bin\Debug\Point-of-Sale_APP.pdb
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\bin\Debug\MaterialSkin2Framework.dll
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\WindowsFormsApp1.POS_APP.resources
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\projec_visual.Properties.Resources.resources
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.csproj.GenerateResource.cache
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\Point-of.53B8F58C.Up2Date
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.exe
+C:\Users\User\Desktop\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.pdb
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\bin\Debug\Point-of-Sale_APP.exe.config
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\bin\Debug\Point-of-Sale_APP.exe
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\bin\Debug\Point-of-Sale_APP.pdb
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\bin\Debug\MaterialSkin2Framework.dll
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.csproj.AssemblyReference.cache
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\WindowsFormsApp1.POS_APP.resources
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\projec_visual.Properties.Resources.resources
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.csproj.GenerateResource.cache
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.csproj.CoreCompileInputs.cache
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\Point-of.53B8F58C.Up2Date
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.exe
+C:\Users\Dawoud Tormos\Downloads\Dawoud_Tormos_12134651_Project_visual (1)\Dawoud_Tormos_12134651_Project_visual\WindowsFormsApp1 - Copy\obj\Debug\Point-of-Sale_APP.pdb

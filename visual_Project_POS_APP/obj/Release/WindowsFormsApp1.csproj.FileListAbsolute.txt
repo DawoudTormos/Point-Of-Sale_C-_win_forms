@@ -1,0 +1,12 @@
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe.config
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\bin\Release\WindowsFormsApp1.pdb
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\bin\Release\MaterialSkin2Framework.dll
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.POS_APP.resources
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsF.A1EEDF9B.Up2Date
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
+C:\Users\Dawoud Tormos\source\repos\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb

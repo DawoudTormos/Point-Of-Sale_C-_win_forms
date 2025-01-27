@@ -1,0 +1,1186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlazorTable</name>
+    </assembly>
+    <members>
+        <member name="T:BlazorTable.Column`1">
+            <summary>
+            Table Column
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="P:BlazorTable.Column`1.Table">
+            <summary>
+            Parent Table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Title">
+            <summary>
+            Title (Optional, will use Field Name if null)
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Width">
+            <summary>
+            Width auto|value|initial|inherit
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Sortable">
+            <summary>
+            Column can be sorted
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Filterable">
+            <summary>
+            Column can be filtered
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Hideable">
+            <summary>
+            Column can be hidden
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Template">
+            <summary>
+            Normal Item Template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.EditTemplate">
+            <summary>
+            Edit Mode Item Template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.SetFooterValue">
+            <summary>
+            Set custom Footer column value 
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.CustomIFilters">
+            <summary>
+            Place custom controls which implement IFilter
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Field">
+            <summary>
+            Field which this column is for<br />
+            Required when Sortable = true<br />
+            Required when Filterable = true
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Align">
+            <summary>
+            Horizontal alignment
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Aggregate">
+            <summary>
+            Aggregates table column for the footer. It can only be applied to numerical fields (e.g. int, long decimal, double, etc.).
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Format">
+            <summary>
+            Set the format for values if no template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Class">
+            <summary>
+            Column CSS Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.ColumnFooterClass">
+            <summary>
+            Column Footer CSS Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Filter">
+            <summary>
+            Filter expression
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.DefaultSortColumn">
+            <summary>
+            True if this is the default Sort Column
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.DefaultSortDescending">
+            <summary>
+            Direction of default sorting
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.SortColumn">
+            <summary>
+            True if this is the current Sort Column
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.SortDescending">
+            <summary>
+            Direction of sorting
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.FilterOpen">
+            <summary>
+            Filter Panel is open
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Visible">
+            <summary>
+            Column visibility
+            True if current column is visible else false.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.Type">
+            <summary>
+            Column Data Type
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.FilterRef">
+            <summary>
+            Filter Icon Element
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Column`1.FilterControl">
+            <summary>
+            Currently applied Filter Control
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Column`1.ToggleFilter">
+            <summary>
+            Opens/Closes the Filter Panel
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Column`1.SortByAsync">
+            <summary>
+            Sort by this column
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Column`1.GetFooterValue">
+            <summary>
+            Returns aggregation of this column for the table footer based on given type: Sum, Average, Count, Min, or Max.
+            </summary>
+            <returns>string results</returns>
+        </member>
+        <member name="M:BlazorTable.Column`1.Render(`0)">
+            <summary>
+            Render a default value if no template
+            </summary>
+            <param name="data">data row</param>
+            <returns></returns>
+        </member>
+        <member name="F:BlazorTable.Column`1.renderCompiled">
+            <summary>
+            Save compiled renderCompiled property to avoid repeated Compile() calls
+            </summary>
+        </member>
+        <member name="T:BlazorTable.CustomRow`1">
+            <summary>
+            A custom row template
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="P:BlazorTable.CustomRow`1.Table">
+            <summary>
+            Parent Table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.CustomRow`1.IsActiveForItem">
+            <summary>
+            Function that defines if the custom row is active for the TableItem inserted as parameter
+            </summary>
+        </member>
+        <member name="P:BlazorTable.CustomRow`1.ChildContent">
+            <summary>
+            Content to show
+            </summary>
+        </member>
+        <member name="M:BlazorTable.CustomRow`1.OnInitialized">
+            <summary>
+            When initialized, add custom row to table
+            </summary>
+        </member>
+        <member name="T:BlazorTable.CustomSelectOption">
+            <summary>
+            Option for CustomSelect
+            </summary>
+        </member>
+        <member name="P:BlazorTable.CustomSelectOption.CustomSelect">
+            <summary>
+            Parent table
+            </summary>
+        </member>
+        <member name="M:BlazorTable.CustomSelectOption.OnInitialized">
+            <summary>
+            When initialized, tell CustomSelect of this item
+            </summary>
+        </member>
+        <member name="T:BlazorTable.DetailTemplate`1">
+            <summary>
+            Detail Template
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="P:BlazorTable.DetailTemplate`1.Table">
+            <summary>
+            Parent table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.DetailTemplate`1.ChildContent">
+            <summary>
+            Content to show
+            </summary>
+        </member>
+        <member name="M:BlazorTable.DetailTemplate`1.OnInitialized">
+            <summary>
+            When initialized, tell table of this item
+            </summary>
+        </member>
+        <member name="T:BlazorTable.DynamicColumns`1">
+            <summary>
+            BlazorTable Dynamic Columns
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="P:BlazorTable.DynamicColumns`1.Table">
+            <summary>
+            Parent Table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.DynamicColumns`1.Sortable">
+            <summary>
+            Column can be sorted
+            </summary>
+        </member>
+        <member name="P:BlazorTable.DynamicColumns`1.Filterable">
+            <summary>
+            Column can be filtered
+            </summary>
+        </member>
+        <member name="P:BlazorTable.DynamicColumns`1.Align">
+            <summary>
+            Horizontal alignment
+            </summary>
+        </member>
+        <member name="P:BlazorTable.DynamicColumns`1.Class">
+            <summary>
+            Column CSS Class
+            </summary>
+        </member>
+        <member name="T:BlazorTable.EmptyDataTemplate">
+            <summary>
+            Child content for empty dataset
+            </summary>
+        </member>
+        <member name="P:BlazorTable.EmptyDataTemplate.Table">
+            <summary>
+            Parent table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.EmptyDataTemplate.ChildContent">
+            <summary>
+            Content to show
+            </summary>
+        </member>
+        <member name="M:BlazorTable.EmptyDataTemplate.OnInitialized">
+            <summary>
+            When initialized, tell table of this item
+            </summary>
+        </member>
+        <member name="T:BlazorTable.LoadingDataTemplate">
+            <summary>
+            Child content for null dataset
+            </summary>
+        </member>
+        <member name="P:BlazorTable.LoadingDataTemplate.Table">
+            <summary>
+            Parent table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.LoadingDataTemplate.ChildContent">
+            <summary>
+            Content to show
+            </summary>
+        </member>
+        <member name="M:BlazorTable.LoadingDataTemplate.OnInitialized">
+            <summary>
+            When initialized, tell table of this item
+            </summary>
+        </member>
+        <member name="T:BlazorTable.Pager">
+            <summary>
+            BlazorTable Pager
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Pager.AlwaysShow">
+            <summary>
+            Always show Pager, otherwise only show if TotalPages > 1
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Pager.ShowPageNumber">
+            <summary>
+            Show current page number
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Pager.ShowTotalCount">
+            <summary>
+            Show total item count
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Pager.PageSizes">
+            <summary>
+            Page size options
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Pager.ShowPageSizes">
+            <summary>
+            Show Page Size Options
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TableClass">
+            <summary>
+            Table CSS Class (Defaults to Bootstrap 4)
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TableHeadClass">
+            <summary>
+            Table Head Class (Defaults to Bootstrap 4)
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TableBodyClass">
+            <summary>
+            Table Body Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TableFooterClass">
+            <summary>
+            Table Footer Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TableRowClass">
+            <summary>
+            Expression to set Row Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.PageSize">
+            <summary>
+            Page Size, defaults to 15
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.ColumnReorder">
+            <summary>
+            Allow Columns to be reordered
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.ItemsQueryable">
+            <summary>
+            IQueryable data source to display in the table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.Items">
+            <summary>
+            Collection to display in the table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.DataLoader">
+            <summary>
+            Service to use to query data server side
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.GlobalSearch">
+            <summary>
+            Search all columns for the specified string, supports spaces as a delimiter
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.VisibilityMenuIconRef">
+            <summary>
+            Ref to visibility menu icon for popover display
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.VisibilityMenuOpen">
+            <summary>
+            True if visibility menu is open otherwise false
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.FilteredItems">
+            <summary>
+            Collection of filtered items
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.Columns">
+            <summary>
+            List of All Available Columns
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.PageNumber">
+            <summary>
+            Current Page Number
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TotalCount">
+            <summary>
+            Total Count of Items
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.IsEditMode">
+            <summary>
+            Is Table in Edit mode
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.TotalPages">
+            <summary>
+            Total Pages
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.CustomRows">
+            <summary>
+            Custom Rows
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.ToggleDetailView(System.Int32,System.Boolean)">
+            <summary>
+            Open/Close detail view in specified row.
+            </summary>
+            <param name="row">number of row to toggle detail view</param>
+            <param name="open">true for openening detail view, false for closing detail view</param>
+        </member>
+        <member name="M:BlazorTable.Table`1.ToggleAllDetailsView(System.Boolean)">
+            <summary>
+            Open/Close all detail views.
+            </summary>
+            <param name="open">true for openening detail view, false for closing detail view</param>
+        </member>
+        <member name="M:BlazorTable.Table`1.UpdateAsync">
+            <summary>
+            Gets Data and redraws the Table
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.AddColumn(BlazorTable.IColumn{`0})">
+            <summary>
+            Adds a Column to the Table
+            </summary>
+            <param name="column"></param>
+        </member>
+        <member name="M:BlazorTable.Table`1.RemoveColumn(BlazorTable.IColumn{`0})">
+            <summary>
+            Removes a Column from the Table
+            </summary>
+            <param name="column"></param>
+        </member>
+        <member name="M:BlazorTable.Table`1.FirstPageAsync">
+            <summary>
+            Go to First Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.NextPageAsync">
+            <summary>
+            Go to Next Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.PreviousPageAsync">
+            <summary>
+            Go to Previous Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.LastPageAsync">
+            <summary>
+            Go to Last Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.ToggleEditMode">
+            <summary>
+            Redraws the Table using EditTemplate instead of Template
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.Refresh">
+            <summary>
+            Redraws Table without Getting Data
+            </summary>
+        </member>
+        <member name="F:BlazorTable.Table`1.DragSource">
+            <summary>
+            Save currently dragged column
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.HandleDragStart(BlazorTable.IColumn{`0})">
+            <summary>
+            Handles the Column Reorder Drag Start and set DragSource
+            </summary>
+            <param name="column"></param>
+        </member>
+        <member name="M:BlazorTable.Table`1.HandleDrop(BlazorTable.IColumn{`0})">
+            <summary>
+            Handles Drag Drop and inserts DragSource column before itself
+            </summary>
+            <param name="column"></param>
+        </member>
+        <member name="M:BlazorTable.Table`1.RowClass(`0)">
+            <summary>
+            Return row class for item if expression is specified
+            </summary>
+            <param name="item">TableItem to return for</param>
+            <returns></returns>
+        </member>
+        <member name="M:BlazorTable.Table`1.SetEmptyDataTemplate(BlazorTable.EmptyDataTemplate)">
+            <summary>
+            Set the template to use for empty data
+            </summary>
+            <param name="emptyDataTemplate"></param>
+        </member>
+        <member name="M:BlazorTable.Table`1.SetLoadingDataTemplate(BlazorTable.LoadingDataTemplate)">
+            <summary>
+            Set the template to use for loading data
+            </summary>
+            <param name="loadingDataTemplate"></param>
+        </member>
+        <member name="M:BlazorTable.Table`1.SetDetailTemplate(BlazorTable.DetailTemplate{`0})">
+            <summary>
+            Set the template to use for detail
+            </summary>
+            <param name="detailTemplate"></param>
+        </member>
+        <member name="P:BlazorTable.Table`1.SelectionType">
+            <summary>
+            Select Type: None, Single or Multiple
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.SelectedItems">
+            <summary>
+            Contains Selected Items
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.RowClickAction">
+            <summary>
+            Action performed when the row is clicked.
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.OnRowClickHandler(`0)">
+            <summary>
+            Handles the onclick action for table rows.
+            This allows the RowClickAction to be optional.
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.AddCustomRow(BlazorTable.CustomRow{`0})">
+            <summary>
+            Add custom row to current table
+            </summary>
+            <param name="customRow">custom row to add</param>
+        </member>
+        <member name="P:BlazorTable.Table`1.ShowSearchBar">
+            <summary>
+            Shows Search Bar above the table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Table`1.ShowFooter">
+            <summary>
+            Show or hide table footer. Hide by default.
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Table`1.SetPageSizeAsync(System.Int32)">
+            <summary>
+            Set Table Page Size
+            </summary>
+            <param name="pageSize"></param>
+        </member>
+        <member name="P:BlazorTable.Table`1.ShowChildContentAtTop">
+            <summary>
+            Show table child content at the top of the table.
+            </summary>
+        </member>
+        <member name="T:BlazorTable.IColumn`1">
+            <summary>
+            Table Column
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Table">
+            <summary>
+            Parent Table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Title">
+            <summary>
+            Title (Optional, will use Field Name if null)
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Width">
+            <summary>
+            Width auto|value|initial|inherit
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Sortable">
+            <summary>
+            Column can be sorted
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Filterable">
+            <summary>
+            Column can be filtered
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Hideable">
+            <summary>
+            Column can be hidden
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Format">
+            <summary>
+            Set the format for values if no template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.FilterOpen">
+            <summary>
+            Filter Panel is open
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Visible">
+            <summary>
+            Column visibility
+            True if current column is visible else false.
+            </summary>
+        </member>
+        <member name="M:BlazorTable.IColumn`1.ToggleFilter">
+            <summary>
+            Opens/Closes the Filter Panel
+            </summary>
+        </member>
+        <member name="M:BlazorTable.IColumn`1.SortByAsync">
+            <summary>
+            Sort by this column
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Type">
+            <summary>
+            Column Data Type
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Field">
+            <summary>
+            Field which this column is for<br />
+            Required when Sortable = true<br />
+            Required when Filterable = true
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Filter">
+            <summary>
+            Filter expression
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.EditTemplate">
+            <summary>
+            Edit Mode Item Template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Template">
+            <summary>
+            Normal Item Template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.SetFooterValue">
+            <summary>
+            Set custom Footer column value 
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.FilterControl">
+            <summary>
+            Currently applied Filter Control
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.CustomIFilters">
+            <summary>
+            Place custom controls which implement IFilter
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.SortColumn">
+            <summary>
+            True if this is the current Sort Column
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.SortDescending">
+            <summary>
+            Direction of sorting
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.AriaSort">
+            <summary>
+            ARIA sort value, if any
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Align">
+            <summary>
+            Horizontal alignment
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Aggregate">
+            <summary>
+            Aggregates table column for the footer. It can only be applied to numerical fields (e.g. int, long decimal, double, etc.).
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.FilterRef">
+            <summary>
+            Filter Icon Element
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.Class">
+            <summary>
+            Column CSS Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.ColumnFooterClass">
+            <summary>
+            Column Footer CSS Class
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.DefaultSortColumn">
+            <summary>
+            True if this is the default Sort Column
+            </summary>
+        </member>
+        <member name="P:BlazorTable.IColumn`1.DefaultSortDescending">
+            <summary>
+            Direction of default sorting
+            </summary>
+        </member>
+        <member name="M:BlazorTable.IColumn`1.GetFooterValue">
+            <summary>
+            Returns aggregation of this column for the table footer based on given type: Sum, Average, Count, Min, or Max.
+            </summary>
+            <returns>string results</returns>
+        </member>
+        <member name="M:BlazorTable.IColumn`1.Render(`0)">
+            <summary>
+            Default render if no Template specified
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BlazorTable.IFilter`1">
+            <summary>
+            Filter Component Interface
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="M:BlazorTable.IFilter`1.GetFilter">
+            <summary>
+            Get Filter Expression
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BlazorTable.ITable">
+            <summary>
+            BlazorTable Interface
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.PageSize">
+            <summary>
+            Page Size
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.ColumnReorder">
+            <summary>
+            Allow Columns to be reordered
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.PageNumber">
+            <summary>
+            Current Page Number
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.TotalCount">
+            <summary>
+            Total Count of Items
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.TotalPages">
+            <summary>
+            Total Pages
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.IsEditMode">
+            <summary>
+            Is Table in Edit mode
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.FirstPageAsync">
+            <summary>
+            Go to First Page Async
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.NextPageAsync">
+            <summary>
+            Go to Next Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.PreviousPageAsync">
+            <summary>
+            Go to Previous Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.LastPageAsync">
+            <summary>
+            Go to Last Page
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.ToggleEditMode">
+            <summary>
+            Redraws the Table using EditTemplate instead of Template
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.TableClass">
+            <summary>
+            Table Element CSS
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.TableBodyClass">
+            <summary>
+            Table Body CSS
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.TableHeadClass">
+            <summary>
+            Table Head CSS
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.Refresh">
+            <summary>
+            Redraws Table without Getting Data
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.UpdateAsync">
+            <summary>
+            Gets Data and redraws the Table
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.ToggleDetailView(System.Int32,System.Boolean)">
+            <summary>
+            Open/Close detail view in specified row.
+            </summary>
+            <param name="row">number of row to toggle detail view</param>
+            <param name="open">true for openening detail view, false for closing detail view</param>
+        </member>
+        <member name="M:BlazorTable.ITable.ToggleAllDetailsView(System.Boolean)">
+            <summary>
+            Open/Close all detail views.
+            </summary>
+            <param name="open">true for openening detail view, false for closing detail view</param>
+        </member>
+        <member name="M:BlazorTable.ITable.SetEmptyDataTemplate(BlazorTable.EmptyDataTemplate)">
+            <summary>
+            Set the EmptyDataTemplate for the table
+            </summary>
+            <param name="template"></param>
+        </member>
+        <member name="M:BlazorTable.ITable.SetLoadingDataTemplate(BlazorTable.LoadingDataTemplate)">
+            <summary>
+            Set the LoadingDataTemplate for the table
+            </summary>
+            <param name="template"></param>
+        </member>
+        <member name="P:BlazorTable.ITable.SelectionType">
+            <summary>
+            Select Type: None, Single or Multiple
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.GlobalSearch">
+            <summary>
+            Search all columns for the specified string, supports spaces as a delimiter
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.ShowSearchBar">
+            <summary>
+            Shows Search Bar above the table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable.ShowFooter">
+            <summary>
+            Show or hide table footer. Hide by default.
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable.SetPageSizeAsync(System.Int32)">
+            <summary>
+            Set Table Page Size
+            </summary>
+            <param name="pageSize"></param>
+        </member>
+        <member name="T:BlazorTable.ITable`1">
+            <summary>
+            BlazorTable Interface
+            </summary>
+            <typeparam name="TableItem"></typeparam>
+        </member>
+        <member name="P:BlazorTable.ITable`1.Columns">
+            <summary>
+            List of All Available Columns
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable`1.AddColumn(BlazorTable.IColumn{`0})">
+            <summary>
+            Adds a Column to the Table
+            </summary>
+            <param name="column"></param>
+        </member>
+        <member name="M:BlazorTable.ITable`1.RemoveColumn(BlazorTable.IColumn{`0})">
+            <summary>
+            Removes a Column from the Table
+            </summary>
+            <param name="column"></param>
+        </member>
+        <member name="P:BlazorTable.ITable`1.ItemsQueryable">
+            <summary>
+            IQueryable data source to display in the table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable`1.Items">
+            <summary>
+            Collection to display in the table
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable`1.FilteredItems">
+            <summary>
+            Collection of filtered items
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable`1.RowClickAction">
+            <summary>
+            Action performed when the row is clicked
+            </summary>
+        </member>
+        <member name="P:BlazorTable.ITable`1.SelectedItems">
+            <summary>
+            Collection of selected items
+            </summary>
+        </member>
+        <member name="M:BlazorTable.ITable`1.SetDetailTemplate(BlazorTable.DetailTemplate{`0})">
+            <summary>
+            Set the SetDetailTemplate for the table
+            </summary>
+            <param name="template"></param>
+        </member>
+        <member name="M:BlazorTable.ITable`1.AddCustomRow(BlazorTable.CustomRow{`0})">
+            <summary>
+            Add custom row to table
+            </summary>
+            <param name="customRow">Custom row to add</param>
+        </member>
+        <member name="T:BlazorTable.Localization.Localization">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.BooleanConditionFalse">
+            <summary>
+              Looks up a localized string similar to False.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.BooleanConditionIsNotNull">
+            <summary>
+              Looks up a localized string similar to Is not null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.BooleanConditionIsNull">
+            <summary>
+              Looks up a localized string similar to Is null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.BooleanConditionTrue">
+            <summary>
+              Looks up a localized string similar to True.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.CustomSelectConditionIsEqualTo">
+            <summary>
+              Looks up a localized string similar to Is equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.CustomSelectConditionIsNotEqualTo">
+            <summary>
+              Looks up a localized string similar to Is not equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.CustomSelectConditionIsNotNull">
+            <summary>
+              Looks up a localized string similar to Is not null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.CustomSelectConditionIsNull">
+            <summary>
+              Looks up a localized string similar to Is null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.EnumConditionIsEqualTo">
+            <summary>
+              Looks up a localized string similar to Is equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.EnumConditionIsNotEqualTo">
+            <summary>
+              Looks up a localized string similar to Is not equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.EnumConditionIsNotNull">
+            <summary>
+              Looks up a localized string similar to Is not null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.EnumConditionIsNull">
+            <summary>
+              Looks up a localized string similar to Is null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.FilterManagerApply">
+            <summary>
+              Looks up a localized string similar to Apply.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.FilterManagerClear">
+            <summary>
+              Looks up a localized string similar to Clear.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.FilterManagerClose">
+            <summary>
+              Looks up a localized string similar to Close.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsEqualTo">
+            <summary>
+              Looks up a localized string similar to Is equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsGreaterThan">
+            <summary>
+              Looks up a localized string similar to Is greater than.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsGreaterThanOrEqualTo">
+            <summary>
+              Looks up a localized string similar to Is greater than or equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsLessThan">
+            <summary>
+              Looks up a localized string similar to Is less than.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsLessThanOrEqualTo">
+            <summary>
+              Looks up a localized string similar to Is less than or equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsnotEqualTo">
+            <summary>
+              Looks up a localized string similar to Is not equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsNotNull">
+            <summary>
+              Looks up a localized string similar to Is not null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.NumberConditionIsNull">
+            <summary>
+              Looks up a localized string similar to Is null.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.PagerFirst">
+            <summary>
+              Looks up a localized string similar to First.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.PagerLast">
+            <summary>
+              Looks up a localized string similar to Last.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.PagerNext">
+            <summary>
+              Looks up a localized string similar to Next.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.PagerPrevious">
+            <summary>
+              Looks up a localized string similar to Previous.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionContains">
+            <summary>
+              Looks up a localized string similar to Contains.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionDoesNotContain">
+            <summary>
+              Looks up a localized string similar to Does not contain.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionEndsWith">
+            <summary>
+              Looks up a localized string similar to Ends with.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionIsEqualTo">
+            <summary>
+              Looks up a localized string similar to Is equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionIsNotEqualTo">
+            <summary>
+              Looks up a localized string similar to Is not equal to.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionIsNotNullOrEmpty">
+            <summary>
+              Looks up a localized string similar to Is not null or empty.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionIsNullOrEmpty">
+            <summary>
+              Looks up a localized string similar to Is null or empty.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.StringConditionStartsWith">
+            <summary>
+              Looks up a localized string similar to Starts with.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.TableDetailsView">
+            <summary>
+              Looks up a localized string similar to Details View.
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.TableGlobalSearch">
+            <summary>
+              Looks up a localized string similar to Global Search....
+            </summary>
+        </member>
+        <member name="P:BlazorTable.Localization.Localization.TableLoading">
+            <summary>
+              Looks up a localized string similar to Loading....
+            </summary>
+        </member>
+        <member name="M:BlazorTable.Utilities.Aggregate(System.Linq.IQueryable,System.String,BlazorTable.AggregateType)">
+            <summary>
+            Calculates Sum or Average of a column base on given field name.
+            </summary>
+            <param name="source"></param>
+            <param name="member"></param>
+            <param name="aggregateType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlazorTable.Utilities.CreateNullChecks(System.Linq.Expressions.Expression,System.Boolean)">
+            <summary>
+            Recursively walks up the tree and adds null checks
+            </summary>
+            <param name="expression"></param>
+            <param name="skipFinalMember"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

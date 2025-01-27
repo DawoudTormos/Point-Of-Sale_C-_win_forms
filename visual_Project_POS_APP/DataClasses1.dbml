@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Visual_POS" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-9VJO9TM;Initial Catalog=Visual_POS;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="projec_visual.Properties.Settings" SettingsPropertyName="Visual_POSConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Balances" Member="Balances">
+    <Type Name="Balance">
+      <Column Name="B_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="startValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="endValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="start_time" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="end_time" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Balance_invoice" Member="invoices" ThisKey="B_ID" OtherKey="B_ID" Type="invoice" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customers" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="C_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="phone_number" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+      <Column Name="time_added" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Customer_invoice" Member="invoices" ThisKey="C_ID" OtherKey="C_ID" Type="invoice" />
+    </Type>
+  </Table>
+  <Table Name="dbo.categories" Member="categories">
+    <Type Name="category">
+      <Column Name="Cat_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="category_product" Member="products" ThisKey="Cat_ID" OtherKey="C_ID" Type="product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Invoice_Rows" Member="Invoice_Rows">
+    <Type Name="Invoice_Row">
+      <Column Name="PU_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="P_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="I_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="isfinished" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="invoice_Invoice_Row" Member="invoice" ThisKey="I_ID" OtherKey="I_ID" Type="invoice" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="product_Invoice_Row" Member="product" ThisKey="P_ID" OtherKey="P_ID" Type="product" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.invoices" Member="invoices">
+    <Type Name="invoice">
+      <Column Name="I_ID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="C_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="timeDate" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="isfinished" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="B_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="invoice_Invoice_Row" Member="Invoice_Rows" ThisKey="I_ID" OtherKey="I_ID" Type="Invoice_Row" />
+      <Association Name="Balance_invoice" Member="Balance" ThisKey="B_ID" OtherKey="B_ID" Type="Balance" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="Customer_invoice" Member="Customer" ThisKey="C_ID" OtherKey="C_ID" Type="Customer" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.products" Member="products">
+    <Type Name="product">
+      <Column Name="P_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="barcode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="C_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="size" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="qauntity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="product_Invoice_Row" Member="Invoice_Rows" ThisKey="P_ID" OtherKey="P_ID" Type="Invoice_Row" />
+      <Association Name="category_product" Member="category" ThisKey="C_ID" OtherKey="Cat_ID" Type="category" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+</Database>

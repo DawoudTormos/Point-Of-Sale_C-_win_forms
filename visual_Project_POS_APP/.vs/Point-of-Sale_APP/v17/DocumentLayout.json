@@ -1,0 +1,504 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\pos_app.customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.genralpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.genralpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\pos_app.genralpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.genralpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\pos_app.inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\pos_app.terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\visual_posdataset21.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:visual_posdataset21.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\visual_posdataset12.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:visual_posdataset12.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\visual_posdataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:visual_posdataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|c:\\users\\dawoud tormos\\downloads\\dawoud_tormos_12134651_project_visual (1)\\dawoud_tormos_12134651_project_visual\\windowsformsapp1 - copy\\pos_app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\linq_for_revesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:linq_for_revesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.addcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|Point-of-Sale_APP.csproj|solutionrelative:pos_app.addcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.genralpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.genralpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\pos_app.inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:pos_app.inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BB0D3DE-CB74-4468-B435-02510A377AE3}|WindowsFormsApp1.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "POS_APP.genralPart.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.genralPart.cs",
+              "RelativeDocumentMoniker": "POS_APP.genralPart.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.genralPart.cs [Design]",
+              "RelativeToolTip": "POS_APP.genralPart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T02:14:03.782Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "POS_APP.Inventory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Inventory.cs",
+              "RelativeDocumentMoniker": "POS_APP.Inventory.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Inventory.cs [Design]",
+              "RelativeToolTip": "POS_APP.Inventory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T02:14:01.289Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "POS_APP.Terminal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Terminal.cs",
+              "RelativeDocumentMoniker": "POS_APP.Terminal.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Terminal.cs [Design]",
+              "RelativeToolTip": "POS_APP.Terminal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T02:13:59.515Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T02:05:56.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Visual_POSDataSet21.xsd",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Visual_POSDataSet21.xsd",
+              "RelativeDocumentMoniker": "Visual_POSDataSet21.xsd",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Visual_POSDataSet21.xsd",
+              "RelativeToolTip": "Visual_POSDataSet21.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-01-27T02:13:45.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Visual_POSDataSet12.xsd",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Visual_POSDataSet12.xsd",
+              "RelativeDocumentMoniker": "Visual_POSDataSet12.xsd",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Visual_POSDataSet12.xsd",
+              "RelativeToolTip": "Visual_POSDataSet12.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-01-27T02:13:42.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Visual_POSDataSet1.xsd",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Visual_POSDataSet1.xsd",
+              "RelativeDocumentMoniker": "Visual_POSDataSet1.xsd",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Visual_POSDataSet1.xsd",
+              "RelativeToolTip": "Visual_POSDataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-01-27T02:13:40.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-27T02:05:56.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Linq_for_revesion.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Linq_for_revesion.cs",
+              "RelativeDocumentMoniker": "Linq_for_revesion.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Linq_for_revesion.cs",
+              "RelativeToolTip": "Linq_for_revesion.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAAwKMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:25:12.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "POS_APP.Customers.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Customers.cs",
+              "RelativeDocumentMoniker": "POS_APP.Customers.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Customers.cs",
+              "RelativeToolTip": "POS_APP.Customers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:57:33.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "POS_APP.Terminal.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Terminal.cs",
+              "RelativeDocumentMoniker": "POS_APP.Terminal.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Terminal.cs",
+              "RelativeToolTip": "POS_APP.Terminal.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:46:45.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "POS_APP.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.cs",
+              "RelativeDocumentMoniker": "POS_APP.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.cs",
+              "RelativeToolTip": "POS_APP.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T23:29:42.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "POS_APP.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.cs",
+              "RelativeDocumentMoniker": "POS_APP.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.cs",
+              "RelativeToolTip": "POS_APP.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:53:00.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "POS_APP.Add_Product.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Add_Product.cs",
+              "RelativeDocumentMoniker": "POS_APP.Add_Product.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Add_Product.cs",
+              "RelativeToolTip": "POS_APP.Add_Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:46:08.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "POS_APP.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Designer.cs",
+              "RelativeDocumentMoniker": "POS_APP.Designer.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Designer.cs",
+              "RelativeToolTip": "POS_APP.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:24:23.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "POS_APP.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Designer.cs",
+              "RelativeDocumentMoniker": "POS_APP.Designer.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Designer.cs",
+              "RelativeToolTip": "POS_APP.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:49:51.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "POS_APP.genralPart.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.genralPart.cs",
+              "RelativeDocumentMoniker": "POS_APP.genralPart.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.genralPart.cs",
+              "RelativeToolTip": "POS_APP.genralPart.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:48:22.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "POS_APP.addCat.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.addCat.cs",
+              "RelativeDocumentMoniker": "POS_APP.addCat.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.addCat.cs",
+              "RelativeToolTip": "POS_APP.addCat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:50:40.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "POS_APP.Balance.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Balance.cs",
+              "RelativeDocumentMoniker": "POS_APP.Balance.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Balance.cs",
+              "RelativeToolTip": "POS_APP.Balance.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAwwG4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:50:46.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "POS_APP.Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Inventory.cs",
+              "RelativeDocumentMoniker": "POS_APP.Inventory.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Inventory.cs",
+              "RelativeToolTip": "POS_APP.Inventory.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T02:54:30.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "POS_APP.Balance.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Balance.cs",
+              "RelativeDocumentMoniker": "POS_APP.Balance.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Balance.cs",
+              "RelativeToolTip": "POS_APP.Balance.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAwwG4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T02:34:14.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:22:58.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T23:33:33.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-22T23:31:12.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "POS_APP.genralPart.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.genralPart.cs",
+              "RelativeDocumentMoniker": "POS_APP.genralPart.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.genralPart.cs",
+              "RelativeToolTip": "POS_APP.genralPart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:11:14.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "POS_APP.Terminal.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Terminal.cs",
+              "RelativeDocumentMoniker": "POS_APP.Terminal.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Terminal.cs",
+              "RelativeToolTip": "POS_APP.Terminal.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:23:22.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "POS_APP.Add_Product.cs",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Add_Product.cs",
+              "RelativeDocumentMoniker": "POS_APP.Add_Product.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.Add_Product.cs",
+              "RelativeToolTip": "POS_APP.Add_Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:04:54.235Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "09f73d17-cc2e-465c-94c8-6831d70b8487",
+        "Display": 0,
+        "X": 255,
+        "Y": 134,
+        "Width": 944,
+        "Height": 558,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "POS_APP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.cs",
+              "RelativeDocumentMoniker": "POS_APP.cs",
+              "ToolTip": "C:\\Users\\Dawoud Tormos\\Downloads\\Dawoud_Tormos_12134651_Project_visual (1)\\Dawoud_Tormos_12134651_Project_visual\\WindowsFormsApp1 - Copy\\POS_APP.cs [Design]",
+              "RelativeToolTip": "POS_APP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:43:17.342Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
