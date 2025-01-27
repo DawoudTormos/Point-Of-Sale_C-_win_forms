@@ -7,6 +7,7 @@ A robust and efficient **Point-of-Sale (POS)** desktop application built using *
 ## 🎯 Features
 
 - **💾 Local Database**: Ensures secure and fast access to data with MS SQL Server.
+- **✨ MAterialSkin.2:** Better UI
 - **📊 Inventory Management**: Simplified tracking of products and stock levels.
 - **💸 Transaction Processing**: Smooth handling of sales transactions.
 - **🔍 Search & Filter**: Quickly find products or view categories.
